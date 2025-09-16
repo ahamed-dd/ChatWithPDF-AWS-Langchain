@@ -6,21 +6,21 @@ It allows you to upload PDF files, store them in S3, build a FAISS vector index,
 ---
 
 ## Features
-Upload PDF files via Streamlit sidebar
-Store and retrieve files from **AWS S3**
-Process multiple PDF files automatically
-Create embeddings using **Bedrock Embeddings**
-Build a FAISS vector database
-Ask questions and get answers directly from your PDF content
+- Upload PDF files via Streamlit sidebar
+- Store and retrieve files from **AWS S3**
+- Process multiple PDF files automatically
+- Create embeddings using **Bedrock Embeddings**
+- Build a FAISS vector database
+- Ask questions and get answers directly from your PDF content
 
 ---
 
 ## Project Structure
 
-├── app.py # Main Streamlit application
-├── requirements.txt # Python dependencies
-├── faiss_index/ # Stores FAISS index files
-└── pdf_files/ # Stores local PDF files
+-├── app.py # Main Streamlit application
+-├── requirements.txt # Python dependencies
+-├── faiss_index/ # Stores FAISS index files
+-└── pdf_files/ # Stores local PDF files
 
-To run the app:
+-To run the app:
 streamlit run app.py
